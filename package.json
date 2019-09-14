@@ -12,7 +12,7 @@
     "build": "babel ./src --out-dir dist",
     "prod": "SET NODE_ENV=production & npm-run-all clean build server:prod",
     "watch": "nodemon",
-    "netlify": "netlify-lambda build functions"
+    "netlify": "netlify-lambda build src"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
